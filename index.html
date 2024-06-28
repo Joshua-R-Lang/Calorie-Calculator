@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+</head>
+<body>
+    <h1>Calorie Calculator</h1>
+
+    <label>Sex: </label>
+    <label>
+        <input type="radio" name="gender" value="male">
+        Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female">
+        Female
+    </label><br><br>
+
+    <label>Height in inches: </label>
+    <input id="Height_Textbox"><br><br>
+
+    <label>Weight in kg: </label>
+    <input id="Weight_Textbox"><br><br>
+
+    <label>Activity level:</label>
+    <label>
+        <input type="radio" name="activity_level" value="sedentary">
+        Sedentary
+    </label>
+    <label>
+        <input type="radio" name="activity_level" value="lightly_active">
+        Lightly active
+    </label>
+    <label>
+        <input type="radio" name="activity_level" value="moderately_active">
+        Moderately active
+    </label>
+    <label>
+        <input type="radio" name="activity_level" value="active">
+        Active
+    </label>
+    <label>
+        <input type="radio" name="activity_level" value="very_active">
+        Very active
+    </label><br><br>
+
+    <button id="Calculate_Button">Calculate</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
